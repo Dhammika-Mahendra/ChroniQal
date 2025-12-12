@@ -1,3 +1,1839 @@
-[
-    
+[   
+{
+    "id":1,
+    "name":"Tang",
+    "description":"",
+    "type":"lineage",
+    "from":618,
+    "to":907,
+    "data":
+    [
+    {
+        "name": "Gaozu",
+        "from": 618,
+        "to": 626,
+        "ch": ""
+    },
+    {
+        "name": "Taizong",
+        "from": 626,
+        "to": 649,
+        "ch": ""
+    },
+    {
+        "name": "Gaozong",
+        "from": 649,
+        "to": 683,
+        "ch": ""
+    },
+    {
+        "name": "Zhongzong",
+        "from": 683,
+        "to": 684,
+        "ch": ""
+    },
+    {
+        "name": "Ruizong",
+        "from": 684,
+        "to": 690,
+        "ch": ""
+    },
+    {
+        "name": "Wu Zetian",
+        "from": 690,
+        "to": 705,
+        "ch": ""
+    },
+    {
+        "name": "Zhongzong",
+        "from": 705,
+        "to": 710,
+        "ch": "2nd"
+    },
+    {
+        "name": "Shang",
+        "from": 710,
+        "to": 710,
+        "ch": ""
+    },
+    {
+        "name": "Ruizong",
+        "from": 710,
+        "to": 712,
+        "ch": "2nd"
+    },
+    {
+        "name": "Xuanzong",
+        "from": 712,
+        "to": 756,
+        "ch": ""
+    },
+    {
+        "name": "Suzong",
+        "from": 756,
+        "to": 762,
+        "ch": ""
+    },
+    {
+        "name": "Daizong",
+        "from": 762,
+        "to": 779,
+        "ch": ""
+    },
+    {
+        "name": "Dezong",
+        "from": 779,
+        "to": 805,
+        "ch": ""
+    },
+    {
+        "name": "Xianzong",
+        "from": 805,
+        "to": 820,
+        "ch": ""
+    },
+    {
+        "name": "Muzong",
+        "from": 821,
+        "to": 824,
+        "ch": ""
+    },
+    {
+        "name": "Jingzong",
+        "from": 824,
+        "to": 826,
+        "ch": ""
+    },
+    {
+        "name": "Wenzong",
+        "from": 826,
+        "to": 840,
+        "ch": ""
+    },
+    {
+        "name": "Wuzong",
+        "from": 840,
+        "to": 846,
+        "ch": ""
+    },
+    {
+        "name": "Xuanzong (II)",
+        "from": 846,
+        "to": 859,
+        "ch": ""
+    },
+    {
+        "name": "Yizong",
+        "from": 859,
+        "to": 873,
+        "ch": ""
+    },
+    {
+        "name": "Xizong",
+        "from": 873,
+        "to": 888,
+        "ch": ""
+    },
+    {
+        "name": "Zhaozong",
+        "from": 888,
+        "to": 904,
+        "ch": ""
+    },
+    {
+        "name": "Aidi",
+        "from": 904,
+        "to": 907,
+        "ch": ""
+    }
+]
+},
+{
+    "id":2,
+    "name":"Shilla",
+    "description":"",
+    "type":"lineage",
+    "from":-57,
+    "to":935,
+    "data":
+    [
+    {
+        "name": "Hyeokgeose",
+        "from": -57,
+        "to": 4,
+        "ch": ""
+    },
+    {
+        "name": "Namhae",
+        "from": 4,
+        "to": 24,
+        "ch": ""
+    },
+    {
+        "name": "Yuri",
+        "from": 24,
+        "to": 57,
+        "ch": ""
+    },
+    {
+        "name": "Talhae",
+        "from": 57,
+        "to": 80,
+        "ch": ""
+    },
+    {
+        "name": "Pasa",
+        "from": 80,
+        "to": 112,
+        "ch": ""
+    },
+    {
+        "name": "Jima",
+        "from": 112,
+        "to": 134,
+        "ch": ""
+    },
+    {
+        "name": "Ilseong",
+        "from": 134,
+        "to": 154,
+        "ch": ""
+    },
+    {
+        "name": "Adalla",
+        "from": 154,
+        "to": 184,
+        "ch": ""
+    },
+    {
+        "name": "Beolhyu",
+        "from": 184,
+        "to": 196,
+        "ch": ""
+    },
+    {
+        "name": "Naehae",
+        "from": 196,
+        "to": 230,
+        "ch": ""
+    },
+    {
+        "name": "Jobun",
+        "from": 230,
+        "to": 247,
+        "ch": ""
+    },
+    {
+        "name": "Cheomhae",
+        "from": 247,
+        "to": 261,
+        "ch": ""
+    },
+    {
+        "name": "Michu",
+        "from": 262,
+        "to": 284,
+        "ch": ""
+    },
+    {
+        "name": "Yurye",
+        "from": 284,
+        "to": 298,
+        "ch": ""
+    },
+    {
+        "name": "Girim",
+        "from": 298,
+        "to": 310,
+        "ch": ""
+    },
+    {
+        "name": "Heulhae",
+        "from": 310,
+        "to": 356,
+        "ch": ""
+    },
+    {
+        "name": "Naemul",
+        "from": 356,
+        "to": 402,
+        "ch": ""
+    },
+    {
+        "name": "Silseong",
+        "from": 402,
+        "to": 417,
+        "ch": ""
+    },
+    {
+        "name": "Nulji",
+        "from": 417,
+        "to": 458,
+        "ch": ""
+    },
+    {
+        "name": "Jabi",
+        "from": 458,
+        "to": 479,
+        "ch": ""
+    },
+    {
+        "name": "Soji",
+        "from": 479,
+        "to": 500,
+        "ch": ""
+    },
+    {
+        "name": "Jijeung",
+        "from": 500,
+        "to": 514,
+        "ch": ""
+    },
+    {
+        "name": "Beopheung",
+        "from": 514,
+        "to": 540,
+        "ch": ""
+    },
+    {
+        "name": "Jinheung",
+        "from": 540,
+        "to": 576,
+        "ch": ""
+    },
+    {
+        "name": "Jinji",
+        "from": 576,
+        "to": 579,
+        "ch": ""
+    },
+    {
+        "name": "Jinpyeong",
+        "from": 579,
+        "to": 632,
+        "ch": ""
+    },
+    {
+        "name": "Seondeok",
+        "from": 632,
+        "to": 647,
+        "ch": ""
+    },
+    {
+        "name": "Jindeok",
+        "from": 647,
+        "to": 654,
+        "ch": ""
+    },
+    {
+        "name": "Muyeol",
+        "from": 654,
+        "to": 661,
+        "ch": ""
+    },
+    {
+        "name": "Munmu",
+        "from": 661,
+        "to": 681,
+        "ch": ""
+    },
+    {
+        "name": "Sinmun",
+        "from": 681,
+        "to": 691,
+        "ch": ""
+    },
+    {
+        "name": "Hyoso",
+        "from": 692,
+        "to": 702,
+        "ch": ""
+    },
+    {
+        "name": "Seongdeok",
+        "from": 702,
+        "to": 737,
+        "ch": ""
+    },
+    {
+        "name": "Hyoseong",
+        "from": 737,
+        "to": 742,
+        "ch": ""
+    },
+    {
+        "name": "Gyeongdeok",
+        "from": 742,
+        "to": 765,
+        "ch": ""
+    },
+    {
+        "name": "Hyegong",
+        "from": 765,
+        "to": 780,
+        "ch": ""
+    },
+    {
+        "name": "Seondeok",
+        "from": 780,
+        "to": 785,
+        "ch": ""
+    },
+    {
+        "name": "Wonseong",
+        "from": 785,
+        "to": 798,
+        "ch": ""
+    },
+    {
+        "name": "Soseong",
+        "from": 798,
+        "to": 800,
+        "ch": ""
+    },
+    {
+        "name": "Aejang",
+        "from": 800,
+        "to": 809,
+        "ch": ""
+    },
+    {
+        "name": "Heondeok",
+        "from": 809,
+        "to": 826,
+        "ch": ""
+    },
+    {
+        "name": "Heungdeok",
+        "from": 826,
+        "to": 836,
+        "ch": ""
+    },
+    {
+        "name": "Huigang",
+        "from": 836,
+        "to": 838,
+        "ch": ""
+    },
+    {
+        "name": "Minae",
+        "from": 838,
+        "to": 839,
+        "ch": ""
+    },
+    {
+        "name": "Munseong",
+        "from": 839,
+        "to": 857,
+        "ch": ""
+    },
+    {
+        "name": "Heonan",
+        "from": 857,
+        "to": 861,
+        "ch": ""
+    },
+    {
+        "name": "Gyeongmun",
+        "from": 861,
+        "to": 875,
+        "ch": ""
+    },
+    {
+        "name": "Heongang",
+        "from": 875,
+        "to": 886,
+        "ch": ""
+    },
+    {
+        "name": "Jeonggang",
+        "from": 886,
+        "to": 887,
+        "ch": ""
+    },
+    {
+        "name": "Jinseong",
+        "from": 887,
+        "to": 897,
+        "ch": ""
+    },
+    {
+        "name": "Hyogong",
+        "from": 897,
+        "to": 912,
+        "ch": ""
+    },
+    {
+        "name": "Sindeok",
+        "from": 912,
+        "to": 917,
+        "ch": ""
+    },
+    {
+        "name": "Gyeongmyeong",
+        "from": 917,
+        "to": 924,
+        "ch": ""
+    },
+    {
+        "name": "Gyeongae",
+        "from": 924,
+        "to": 927,
+        "ch": ""
+    },
+    {
+        "name": "Gyeongsun",
+        "from": 927,
+        "to": 935,
+        "ch": ""
+    }
+]
+},
+{
+    "id":3,
+    "name":"Goguryeo",
+    "description":"",
+    "type":"lineage",
+    "from":-37,
+    "to":668,
+    "data":
+    [
+    {
+        "name": "Chumo",
+        "from": -37,
+        "to": -19,
+        "ch": ""
+    },
+    {
+        "name": "Yuri",
+        "from": -19,
+        "to": 18,
+        "ch": ""
+    },
+    {
+        "name": "Daemusin",
+        "from": 18,
+        "to": 44,
+        "ch": ""
+    },
+    {
+        "name": "Minjung",
+        "from": 44,
+        "to": 48,
+        "ch": ""
+    },
+    {
+        "name": "Mobon",
+        "from": 48,
+        "to": 53,
+        "ch": ""
+    },
+    {
+        "name": "Taejodae",
+        "from": 53,
+        "to": 146,
+        "ch": ""
+    },
+    {
+        "name": "Chadae",
+        "from": 146,
+        "to": 165,
+        "ch": ""
+    },
+    {
+        "name": "Sindae",
+        "from": 165,
+        "to": 179,
+        "ch": ""
+    },
+    {
+        "name": "Gogukcheon",
+        "from": 179,
+        "to": 197,
+        "ch": ""
+    },
+    {
+        "name": "Sansang",
+        "from": 197,
+        "to": 227,
+        "ch": ""
+    },
+    {
+        "name": "Dongcheon",
+        "from": 227,
+        "to": 248,
+        "ch": ""
+    },
+    {
+        "name": "Jungcheon",
+        "from": 248,
+        "to": 270,
+        "ch": ""
+    },
+    {
+        "name": "Seocheon",
+        "from": 270,
+        "to": 292,
+        "ch": ""
+    },
+    {
+        "name": "Bongsang",
+        "from": 292,
+        "to": 300,
+        "ch": ""
+    },
+    {
+        "name": "Micheon",
+        "from": 300,
+        "to": 331,
+        "ch": ""
+    },
+    {
+        "name": "Gogugwon",
+        "from": 331,
+        "to": 371,
+        "ch": ""
+    },
+    {
+        "name": "Sosurim",
+        "from": 371,
+        "to": 384,
+        "ch": ""
+    },
+    {
+        "name": "Gogugyang",
+        "from": 384,
+        "to": 391,
+        "ch": ""
+    },
+    {
+        "name": "Gwanggaeto the Great",
+        "from": 391,
+        "to": 413,
+        "ch": ""
+    },
+    {
+        "name": "Jangsu",
+        "from": 413,
+        "to": 491,
+        "ch": ""
+    },
+    {
+        "name": "Munja",
+        "from": 491,
+        "to": 519,
+        "ch": ""
+    },
+    {
+        "name": "Anjang",
+        "from": 519,
+        "to": 531,
+        "ch": ""
+    },
+    {
+        "name": "Anwon",
+        "from": 531,
+        "to": 545,
+        "ch": ""
+    },
+    {
+        "name": "Yangwon",
+        "from": 545,
+        "to": 559,
+        "ch": ""
+    },
+    {
+        "name": "Pyeongwon",
+        "from": 559,
+        "to": 590,
+        "ch": ""
+    },
+    {
+        "name": "Yeongyang",
+        "from": 590,
+        "to": 618,
+        "ch": ""
+    },
+    {
+        "name": "Yeongnyu",
+        "from": 618,
+        "to": 642,
+        "ch": ""
+    },
+    {
+        "name": "Bojang",
+        "from": 642,
+        "to": 668,
+        "ch": ""
+    }
+]
+},
+{
+    "id":4,
+    "name":"Baekje",
+    "description":"",
+    "type":"lineage",
+    "from":-18,
+    "to":660,
+    "data":
+    [
+    {
+        "name": "Onjo",
+        "from": -18,
+        "to": 28,
+        "ch": ""
+    },
+    {
+        "name": "Daru",
+        "from": 28,
+        "to": 77,
+        "ch": ""
+    },
+    {
+        "name": "Giru",
+        "from": 77,
+        "to": 128,
+        "ch": ""
+    },
+    {
+        "name": "Gaeru",
+        "from": 128,
+        "to": 166,
+        "ch": ""
+    },
+    {
+        "name": "Chogo",
+        "from": 166,
+        "to": 214,
+        "ch": ""
+    },
+    {
+        "name": "Gusu",
+        "from": 214,
+        "to": 234,
+        "ch": ""
+    },
+    {
+        "name": "Goi",
+        "from": 234,
+        "to": 286,
+        "ch": ""
+    },
+    {
+        "name": "Chaekgye",
+        "from": 286,
+        "to": 298,
+        "ch": ""
+    },
+    {
+        "name": "Bunseo",
+        "from": 298,
+        "to": 304,
+        "ch": ""
+    },
+    {
+        "name": "Biryu",
+        "from": 304,
+        "to": 344,
+        "ch": ""
+    },
+    {
+        "name": "Gye",
+        "from": 344,
+        "to": 346,
+        "ch": ""
+    },
+    {
+        "name": "Geunchogo",
+        "from": 346,
+        "to": 375,
+        "ch": ""
+    },
+    {
+        "name": "Geungusu",
+        "from": 375,
+        "to": 384,
+        "ch": ""
+    },
+    {
+        "name": "Chimnyu",
+        "from": 384,
+        "to": 385,
+        "ch": ""
+    },
+    {
+        "name": "Jinsa",
+        "from": 385,
+        "to": 392,
+        "ch": ""
+    },
+    {
+        "name": "Asin",
+        "from": 392,
+        "to": 405,
+        "ch": ""
+    },
+    {
+        "name": "Jeonji",
+        "from": 405,
+        "to": 420,
+        "ch": ""
+    },
+    {
+        "name": "Guisin",
+        "from": 420,
+        "to": 427,
+        "ch": ""
+    },
+    {
+        "name": "Biyu",
+        "from": 427,
+        "to": 455,
+        "ch": ""
+    },
+    {
+        "name": "Gaero",
+        "from": 455,
+        "to": 475,
+        "ch": ""
+    },
+    {
+        "name": "Munju",
+        "from": 475,
+        "to": 477,
+        "ch": ""
+    },
+    {
+        "name": "Samgeun",
+        "from": 477,
+        "to": 479,
+        "ch": ""
+    },
+    {
+        "name": "Dongseong",
+        "from": 479,
+        "to": 501,
+        "ch": ""
+    },
+    {
+        "name": "Muryeong",
+        "from": 501,
+        "to": 523,
+        "ch": ""
+    },
+    {
+        "name": "Seong",
+        "from": 523,
+        "to": 554,
+        "ch": ""
+    },
+    {
+        "name": "Wideok",
+        "from": 554,
+        "to": 598,
+        "ch": ""
+    },
+    {
+        "name": "Hye",
+        "from": 598,
+        "to": 599,
+        "ch": ""
+    },
+    {
+        "name": "Pŏp",
+        "from": 599,
+        "to": 600,
+        "ch": ""
+    },
+    {
+        "name": "Mu",
+        "from": 600,
+        "to": 641,
+        "ch": ""
+    },
+    {
+        "name": "Uija",
+        "from": 641,
+        "to": 660,
+        "ch": ""
+    }
+]
+},
+{
+    "id":5,
+    "name":"Goryeo",
+    "description":"",
+    "type":"lineage",
+    "from":918,
+    "to":1392,
+    "data":
+    [
+    {
+        "name": "Taejo",
+        "from": 918,
+        "to": 943,
+        "ch": ""
+    },
+    {
+        "name": "Hyejong",
+        "from": 943,
+        "to": 945,
+        "ch": ""
+    },
+    {
+        "name": "Jeongjong",
+        "from": 945,
+        "to": 949,
+        "ch": ""
+    },
+    {
+        "name": "Gwangjong",
+        "from": 949,
+        "to": 975,
+        "ch": ""
+    },
+    {
+        "name": "Gyeongjong",
+        "from": 975,
+        "to": 981,
+        "ch": ""
+    },
+    {
+        "name": "Seongjong",
+        "from": 981,
+        "to": 997,
+        "ch": ""
+    },
+    {
+        "name": "Mokjong",
+        "from": 997,
+        "to": 1009,
+        "ch": ""
+    },
+    {
+        "name": "Hyeonjong",
+        "from": 1009,
+        "to": 1031,
+        "ch": ""
+    },
+    {
+        "name": "Deokjong",
+        "from": 1031,
+        "to": 1034,
+        "ch": ""
+    },
+    {
+        "name": "Jeongjong",
+        "from": 1034,
+        "to": 1046,
+        "ch": ""
+    },
+    {
+        "name": "Munjong",
+        "from": 1046,
+        "to": 1083,
+        "ch": ""
+    },
+    {
+        "name": "Seonjong",
+        "from": 1083,
+        "to": 1094,
+        "ch": ""
+    },
+    {
+        "name": "Heonjong",
+        "from": 1094,
+        "to": 1095,
+        "ch": ""
+    },
+    {
+        "name": "Sukjong",
+        "from": 1095,
+        "to": 1105,
+        "ch": ""
+    },
+    {
+        "name": "Yejong",
+        "from": 1105,
+        "to": 1122,
+        "ch": ""
+    },
+    {
+        "name": "Injong",
+        "from": 1122,
+        "to": 1146,
+        "ch": ""
+    },
+    {
+        "name": "Uijong",
+        "from": 1146,
+        "to": 1170,
+        "ch": ""
+    },
+    {
+        "name": "Myeongjong",
+        "from": 1170,
+        "to": 1197,
+        "ch": ""
+    },
+    {
+        "name": "Sinjong",
+        "from": 1197,
+        "to": 1204,
+        "ch": ""
+    },
+    {
+        "name": "Huijong",
+        "from": 1204,
+        "to": 1211,
+        "ch": ""
+    },
+    {
+        "name": "Gangjong",
+        "from": 1211,
+        "to": 1213,
+        "ch": ""
+    },
+    {
+        "name": "Gojong",
+        "from": 1213,
+        "to": 1259,
+        "ch": ""
+    },
+    {
+        "name": "Wonjong",
+        "from": 1259,
+        "to": 1274,
+        "ch": ""
+    },
+    {
+        "name": "Chungnyeol",
+        "from": 1274,
+        "to": 1308,
+        "ch": ""
+    },
+    {
+        "name": "Chungseon",
+        "from": 1308,
+        "to": 1313,
+        "ch": ""
+    },
+    {
+        "name": "Chungsuk",
+        "from": 1313,
+        "to": 1330,
+        "ch": ""
+    },
+    {
+        "name": "Chunghye",
+        "from": 1330,
+        "to": 1332,
+        "ch": ""
+    },
+    {
+        "name": "Chungsuk",
+        "from": 1332,
+        "to": 1339,
+        "ch": "2nd"
+    },
+    {
+        "name": "Chunghye",
+        "from": 1339,
+        "to": 1344,
+        "ch": ""
+    },
+    {
+        "name": "Chungmok",
+        "from": 1344,
+        "to": 1348,
+        "ch": ""
+    },
+    {
+        "name": "Chungjeong",
+        "from": 1348,
+        "to": 1351,
+        "ch": ""
+    },
+    {
+        "name": "Gongmin",
+        "from": 1351,
+        "to": 1374,
+        "ch": ""
+    },
+    {
+        "name": "U",
+        "from": 1374,
+        "to": 1388,
+        "ch": ""
+    },
+    {
+        "name": "Chang",
+        "from": 1388,
+        "to": 1389,
+        "ch": ""
+    },
+    {
+        "name": "Gongyang",
+        "from": 1389,
+        "to": 1392,
+        "ch": ""
+    }
+]
+},
+{
+    "id":6,
+    "name":"Joseon",
+    "description":"",
+    "type":"lineage",
+    "from":1392,
+    "to":1910,
+    "data":
+    [
+    {
+        "name": "Taejo",
+        "from": 1392,
+        "to": 1398,
+        "ch" : ""
+    },
+    {
+        "name": "Jeongjong",
+        "from": 1398,
+        "to": 1400,
+        "ch" : ""
+    },
+    {
+        "name": "Taejong",
+        "from": 1400,
+        "to": 1418,
+        "ch" : ""
+    },
+    {
+        "name": "Sejong",
+        "from": 1418,
+        "to": 1450,
+        "ch" : ""
+    },
+    {
+        "name": "Munjong",
+        "from": 1450,
+        "to": 1452,
+        "ch" : ""
+    },
+    {
+        "name": "Danjong",
+        "from": 1452,
+        "to": 1455,
+        "ch" : ""
+    },
+    {
+        "name": "Sejo",
+        "from": 1455,
+        "to": 1468,
+        "ch" : ""
+    },
+    {
+        "name": "Yejong",
+        "from": 1468,
+        "to": 1469,
+        "ch" : ""
+    },
+    {
+        "name": "Seongjong",
+        "from": 1469,
+        "to": 1494,
+        "ch" : ""
+    },
+    {
+        "name": "Yeonsangun",
+        "from": 1494,
+        "to": 1506,
+        "ch" : ""
+    },
+    {
+        "name": "Jungjong",
+        "from": 1506,
+        "to": 1544,
+        "ch" : ""
+    },
+    {
+        "name": "Injong",
+        "from": 1544,
+        "to": 1545,
+        "ch" : ""
+    },
+    {
+        "name": "Myeongjong",
+        "from": 1545,
+        "to": 1567,
+        "ch" : ""
+    },
+    {
+        "name": "Seonjo",
+        "from": 1567,
+        "to": 1608,
+        "ch" : ""
+    },
+    {
+        "name": "Gwanghaegun",
+        "from": 1608,
+        "to": 1623,
+        "ch" : ""
+    },
+    {
+        "name": "Injo",
+        "from": 1623,
+        "to": 1649,
+        "ch" : ""
+    },
+    {
+        "name": "Hyojong",
+        "from": 1649,
+        "to": 1659,
+        "ch" : ""
+    },
+    {
+        "name": "Hyeonjong",
+        "from": 1659,
+        "to": 1674,
+        "ch" : ""
+    },
+    {
+        "name": "Sukjong",
+        "from": 1674,
+        "to": 1720,
+        "ch" : ""
+    },
+    {
+        "name": "Gyeongjong",
+        "from": 1720,
+        "to": 1724,
+        "ch" : ""
+    },
+    {
+        "name": "Yeongjo",
+        "from": 1724,
+        "to": 1776,
+        "ch" : ""
+    },
+    {
+        "name": "Jeongjo",
+        "from": 1776,
+        "to": 1800,
+        "ch" : ""
+    },
+    {
+        "name": "Sunjo",
+        "from": 1800,
+        "to": 1834,
+        "ch" : ""
+    },
+    {
+        "name": "Heonjong",
+        "from": 1834,
+        "to": 1849,
+        "ch" : ""
+    },
+    {
+        "name": "Cheoljong",
+        "from": 1849,
+        "to": 1863,
+        "ch" : ""
+    },
+    {
+        "name": "Gojong",
+        "from": 1863,
+        "to": 1907,
+        "ch" : ""
+    },
+    {
+        "name": "Sunjong",
+        "from": 1907,
+        "to": 1910,
+        "ch" : ""
+    }
+]
+},
+{
+    "id":7,
+    "name":"Ming",
+    "description":"",
+    "type":"lineage",
+    "from":1368,
+    "to":1644,
+    "data": 
+    [
+    {
+        "name": "Hongwu",
+        "from": 1368,
+        "to": 1398,
+        "ch" : ""
+    },
+    {
+        "name": "Jianwen",
+        "from": 1398,
+        "to": 1402,
+        "ch" : ""
+    },
+    {
+        "name": "Yongle",
+        "from": 1402,
+        "to": 1424,
+        "ch" : ""
+    },
+    {
+        "name": "Hongxi",
+        "from": 1424,
+        "to": 1425,
+        "ch" : ""
+    },
+    {
+        "name": "Xuande",
+        "from": 1425,
+        "to": 1435,
+        "ch" : ""
+    },
+    {
+        "name": "Zhengtong",
+        "from": 1435,
+        "to": 1449,
+        "ch" : ""
+    },
+    {
+        "name": "Jingtai",
+        "from": 1449,
+        "to": 1457,
+        "ch" : ""
+    },
+    {
+        "name": "Zhengtong",
+        "from": 1457,
+        "to": 1464,
+        "ch" : "2nd"
+    },
+    {
+        "name": "Chenghua",
+        "from": 1464,
+        "to": 1487,
+        "ch" : ""
+    },
+    {
+        "name": "Hongzhi",
+        "from": 1487,
+        "to": 1505,
+        "ch" : ""
+    },
+    {
+        "name": "Zhengde",
+        "from": 1505,
+        "to": 1521,
+        "ch" : ""
+    },
+    {
+        "name": "Jiajing",
+        "from": 1521,
+        "to": 1566,
+        "ch" : ""
+    },
+    {
+        "name": "Longqing",
+        "from": 1566,
+        "to": 1572,
+        "ch" : ""
+    },
+    {
+        "name": "Wanli",
+        "from": 1572,
+        "to": 1620,
+        "ch" : ""
+    },
+    {
+        "name": "Tianqi",
+        "from": 1620,
+        "to": 1627,
+        "ch" : ""
+    },
+    {
+        "name": "Chongzhen",
+        "from": 1627,
+        "to": 1644,
+        "ch" : ""
+    }
+]
+},
+{
+    "id":8,
+    "name":"Qing",
+    "description":"",
+    "type":"lineage",
+    "from":1636,
+    "to":1912,
+    "data":
+    [
+    {
+        "name": "Hong Taiji",
+        "from": 1636,
+        "to": 1644,
+        "ch": ""
+    },
+    {
+        "name": "Shunzhi",
+        "from": 1644,
+        "to": 1661,
+        "ch": ""
+    },
+    {
+        "name": "Kangxi",
+        "from": 1661,
+        "to": 1722,
+        "ch": ""
+    },
+    {
+        "name": "Yongzheng",
+        "from": 1722,
+        "to": 1735,
+        "ch": ""
+    },
+    {
+        "name": "Qianlong",
+        "from": 1735,
+        "to": 1796,
+        "ch": ""
+    },
+    {
+        "name": "Jiaqing",
+        "from": 1796,
+        "to": 1820,
+        "ch": ""
+    },
+    {
+        "name": "Daoguang",
+        "from": 1820,
+        "to": 1850,
+        "ch": ""
+    },
+    {
+        "name": "Xianfeng",
+        "from": 1850,
+        "to": 1861,
+        "ch": ""
+    },
+    {
+        "name": "Tongzhi",
+        "from": 1861,
+        "to": 1875,
+        "ch": ""
+    },
+    {
+        "name": "Guangxu",
+        "from": 1875,
+        "to": 1908,
+        "ch": ""
+    },
+    {
+        "name": "Xuantong",
+        "from": 1908,
+        "to": 1912,
+        "ch": ""
+    }
+]
+},
+{
+    "id":9,
+    "name":"Yuan",
+    "description":"",
+    "type":"lineage",
+    "from":1271,
+    "to":1368,
+    "data":
+    [
+    {
+        "name": "Kublai Khan",
+        "from": 1260,
+        "to": 1294,
+        "ch": ""
+    },
+    {
+        "name": "Temur Khan",
+        "from": 1294,
+        "to": 1307,
+        "ch": ""
+    },
+    {
+        "name": "Kulug Khan",
+        "from": 1307,
+        "to": 1311,
+        "ch": ""
+    },
+    {
+        "name": "Ayurbarwada Buyantu Khan",
+        "from": 1311,
+        "to": 1320,
+        "ch": ""
+    },
+    {
+        "name": "Gegeen Khan",
+        "from": 1320,
+        "to": 1323,
+        "ch": ""
+    },
+    {
+        "name": "Yesun Temur",
+        "from": 1323,
+        "to": 1328,
+        "ch": ""
+    },
+    {
+        "name": "Ragibagh",
+        "from": 1328,
+        "to": 1328,
+        "ch": ""
+    },
+    {
+        "name": "Jayaatu Khan Tugh Temur",
+        "from": 1328,
+        "to": 1329,
+        "ch": ""
+    },
+    {
+        "name": "Khutughtu Khan Kusala",
+        "from": 1329,
+        "to": 1329,
+        "ch": ""
+    },
+    {
+        "name": "Jayaatu Khan Tugh Temur",
+        "from": 1329,
+        "to": 1332,
+        "ch": "2nd"
+    },
+    {
+        "name": "Rinchinbal Khan",
+        "from": 1332,
+        "to": 1333,
+        "ch": ""
+    },
+    {
+        "name": "Toghon Temur",
+        "from": 1333,
+        "to": 1368,
+        "ch": ""
+    }
+]
+},
+{
+    "id":10,
+    "name":"Han",
+    "description":"",
+    "type":"lineage",
+    "from":-202,
+    "to":220,
+    "data":
+    [
+    {
+        "name": "Gaozu",
+        "from": -202,
+        "to": -195,
+        "ch": ""
+    },
+    {
+        "name": "Hui",
+        "from": -195,
+        "to": -188,
+        "ch": ""
+    },
+    {
+        "name": "Qianshao",
+        "from": -188,
+        "to": -184,
+        "ch": ""
+    },
+    {
+        "name": "Houshao",
+        "from": -184,
+        "to": -180,
+        "ch": ""
+    },
+    {
+        "name": "Wen",
+        "from": -180,
+        "to": -157,
+        "ch": ""
+    },
+    {
+        "name": "Jing",
+        "from": -157,
+        "to": -141,
+        "ch": ""
+    },
+    {
+        "name": "Wu",
+        "from": -141,
+        "to": -87,
+        "ch": ""
+    },
+    {
+        "name": "Zhao",
+        "from": -87,
+        "to": -74,
+        "ch": ""
+    },
+    {
+        "name": "Xuan",
+        "from": -74,
+        "to": -49,
+        "ch": ""
+    },
+    {
+        "name": "Yuan",
+        "from": -49,
+        "to": -33,
+        "ch": ""
+    },
+    {
+        "name": "Cheng",
+        "from": -33,
+        "to": -7,
+        "ch": ""
+    },
+    {
+        "name": "Ai",
+        "from": -7,
+        "to": -1,
+        "ch": ""
+    },
+    {
+        "name": "Ping",
+        "from": -1,
+        "to": 6,
+        "ch": ""
+    },
+    {
+        "name": "Ruzi Ying",
+        "from": 6,
+        "to": 9,
+        "ch": ""
+    },
+    {
+        "name": "",
+        "from": 9,
+        "to": 23,
+        "ch": ""
+    },
+    {
+        "name": "Gengshi",
+        "from": 23,
+        "to": 25,
+        "ch": ""
+    },
+    {
+        "name": "Guangwu",
+        "from": 25,
+        "to": 57,
+        "ch": ""
+    },
+    {
+        "name": "Ming",
+        "from": 57,
+        "to": 75,
+        "ch": ""
+    },
+    {
+        "name": "Zhang",
+        "from": 75,
+        "to": 88,
+        "ch": ""
+    },
+    {
+        "name": "He",
+        "from": 88,
+        "to": 105,
+        "ch": ""
+    },
+    {
+        "name": "Shang",
+        "from": 105,
+        "to": 106,
+        "ch": ""
+    },
+    {
+        "name": "An",
+        "from": 106,
+        "to": 125,
+        "ch": ""
+    },
+    {
+        "name": "Shun",
+        "from": 125,
+        "to": 144,
+        "ch": ""
+    },
+    {
+        "name": "Chong",
+        "from": 144,
+        "to": 145,
+        "ch": ""
+    },
+    {
+        "name": "Zhi",
+        "from": 145,
+        "to": 146,
+        "ch": ""
+    },
+    {
+        "name": "Huan",
+        "from": 146,
+        "to": 168,
+        "ch": ""
+    },
+    {
+        "name": "Ling",
+        "from": 168,
+        "to": 189,
+        "ch": ""
+    },
+    {
+        "name": "Shao",
+        "from": 189,
+        "to": 189,
+        "ch": ""
+    },
+    {
+        "name": "Xian",
+        "from": 189,
+        "to": 220,
+        "ch": ""
+    }
+]
+},
+{
+    "id":11,
+    "name":"Mughal",
+    "description":"",
+    "type":"lineage",
+    "from":1526,
+    "to":1857,
+    "data":
+    [
+    {
+        "name": "Babur",
+        "from": 1526,
+        "to": 1530,
+        "ch": ""
+    },
+    {
+        "name": "Humayun",
+        "from": 1530,
+        "to": 1540,
+        "ch": ""
+    },
+    {
+        "name": "",
+        "from": 1540,
+        "to": 1555,
+        "ch": ""
+    },
+    {
+        "name": "Humayun",
+        "from": 1555,
+        "to": 1556,
+        "ch": ""
+    },
+    {
+        "name": "Akbar",
+        "from": 1556,
+        "to": 1605,
+        "ch": ""
+    },
+    {
+        "name": "Jahangir",
+        "from": 1605,
+        "to": 1627,
+        "ch": ""
+    },
+    {
+        "name": "Shah Jahan",
+        "from": 1628,
+        "to": 1658,
+        "ch": ""
+    },
+    {
+        "name": "Aurangzeb",
+        "from": 1658,
+        "to": 1707,
+        "ch": ""
+    },
+    {
+        "name": "Bahadur Shah I",
+        "from": 1707,
+        "to": 1712,
+        "ch": ""
+    },
+    {
+        "name": "Jahandar Shah",
+        "from": 1712,
+        "to": 1713,
+        "ch": ""
+    },
+    {
+        "name": "Farrukhsiyar",
+        "from": 1713,
+        "to": 1719,
+        "ch": ""
+    },
+    {
+        "name": "Rafi ud-Darajat",
+        "from": 1719,
+        "to": 1719,
+        "ch": ""
+    },
+    {
+        "name": "Shah Jahan II",
+        "from": 1719,
+        "to": 1719,
+        "ch": ""
+    },
+    {
+        "name": "Muhammad Shah",
+        "from": 1719,
+        "to": 1748,
+        "ch": ""
+    },
+    {
+        "name": "Ahmad Shah Bahadur",
+        "from": 1748,
+        "to": 1754,
+        "ch": ""
+    },
+    {
+        "name": "Alamgir II",
+        "from": 1754,
+        "to": 1759,
+        "ch": ""
+    },
+    {
+        "name": "Shah Jahan III",
+        "from": 1759,
+        "to": 1760,
+        "ch": ""
+    },
+    {
+        "name": "Shah Alam II",
+        "from": 1760,
+        "to": 1806,
+        "ch": ""
+    },
+    {
+        "name": "Akbar Shah II",
+        "from": 1806,
+        "to": 1837,
+        "ch": ""
+    },
+    {
+        "name": "Bahadur Shah II",
+        "from": 1837,
+        "to": 1857,
+        "ch": ""
+    }
+    ]
+}
 ]
