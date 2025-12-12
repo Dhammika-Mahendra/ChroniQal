@@ -1,16 +1,6 @@
 import React, { createContext, useContext, useState } from 'react'
-import tang from '../assets/data/lin/Tang.json'
-import shilla from '../assets/data/lin/Shilla.json'
-import goguryeo from '../assets/data/lin/Goguryeo.json'
-import baekje from '../assets/data/lin/Baekje.json'
-import joseon from '../assets/data/lin/Joseon.json'
-import qing from '../assets/data/lin/Qing.json'
-import ming from '../assets/data/lin/Ming.json'
-import goryeo from '../assets/data/lin/Goryeo.json'
-import yuan from '../assets/data/lin/Yuan.json'
-import han from '../assets/data/lin/Han.json'
-import mughal from '../assets/data/lin/Mughal.json'
 import domain from '../assets/data/Domain.json'
+import lineage from '../assets/data/Lineage.json'
 
 // Create the context
 const AppContext = createContext()
@@ -27,7 +17,7 @@ export const useAppContext = () => {
 // Context provider component
 export const AppProvider = ({ children }) => {
   const [scale, setScale] = useState(8)
-  const [lineageData, setLineageData] = React.useState([tang, shilla, goguryeo, baekje, joseon, qing, ming, goryeo, yuan, han, mughal])
+  const [lineageData, setLineageData] = React.useState([...lineage])
   const [domainData, setDomainData] = React.useState([...domain])
   const [eventsData, setEventsData] = React.useState([])
   const [addedFiles, setAddedFiles] = React.useState([])

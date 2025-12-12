@@ -1835,5 +1835,33 @@
         "ch": ""
     }
     ]
+},
+{
+    "id":12,
+    "name":"Sui",
+    "description":"",
+    "type":"lineage",
+    "from":581,
+    "to":618,
+    "data":[
+    {
+        "name": "Wendi",
+        "from": 581,
+        "to": 604,
+        "ch": ""
+    },
+    {
+        "name": "Yangdi",
+        "from": 604,
+        "to": 618,
+        "ch": ""
+    },
+    {
+        "name": "Gongdi",
+        "from": 617,
+        "to": 618,
+        "ch": ""
+    }
+    ]
 }
 ]
