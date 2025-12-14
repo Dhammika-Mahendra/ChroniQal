@@ -1,5 +1,6 @@
 import React from 'react'
-import Ruler from './ruler'
+import Ruler from './Ruler.jsx'
+import { getColorByIndex } from '../util/functions'
 
 export default function Lineage({data,offset}) {
   return (
@@ -13,6 +14,7 @@ export default function Lineage({data,offset}) {
       {
         data ? data.map((ruler, index) => (
           <Ruler 
+            color={getColorByIndex(index)}
             key={index} 
             name={ruler.name} 
             chance={ruler.ch} 

@@ -1,11 +1,9 @@
 import React, { useState } from 'react'
 import { useAppContext } from '../context/AppContext'
-import { getRandomColor } from '../util/functions'
 
-export default function Ruler({ name, chance, from, to }) {
+export default function Ruler({ name, chance, from, to, color }) {
   const { scale } = useAppContext();
   const [height, setHeight] = useState(Math.abs(to - from) * scale);
-  const [color, setColor] = useState(name === '' ? 'rgba(0,0,0,0)' : getRandomColor());
   const [hovered, setHovered] = useState(false);
 
   React.useEffect(() => {
@@ -14,7 +12,7 @@ export default function Ruler({ name, chance, from, to }) {
 
   return (
     <div
-      style={{ backgroundColor: color, paddingLeft: '5px', height: `${height}px`, position: 'relative' }}
+      style={{ backgroundColor: color, boxSizing: 'border-box', paddingLeft: '5px', height: `${height}px`, position: 'relative' }}
       onMouseEnter={() => setHovered(true)}
       onMouseLeave={() => setHovered(false)}
     >
@@ -39,15 +37,14 @@ export default function Ruler({ name, chance, from, to }) {
             top: '50%',
             left: '50%',
             transform: 'translateX(-50%)',
-            background: '#ffffffff',
-            color: '#000000ff',
+            background: '#9e9d9dff',
+            color: '#fdfdfdff',
             padding: '2px 8px',
             borderRadius: '4px',
             fontSize: '11px',
             whiteSpace: 'nowrap',
             marginTop: '0',
             zIndex: 10,
-            border: '1px solid #747070ff',
             boxShadow: '0 2px 8px rgba(0,0,0,0.15)'
           }}
         >
