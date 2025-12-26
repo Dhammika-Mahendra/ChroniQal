@@ -11,10 +11,6 @@ export default function Domain({data, offset}) {
       setHeight(Math.abs(data.to-data.from)*scale)}, 
   [scale])
 
-  const formatYear = (year) => {
-    if (year < 0) return `${Math.abs(year)} BC`;
-    return `${year} AD`;
-  }
   return (
     <div style={{
         height: `${height}px`,
@@ -22,11 +18,14 @@ export default function Domain({data, offset}) {
         marginLeft:'5px',
         marginRight:'2px',
         position:'relative',
+        paddingLeft:'5px',
+        paddingRight:'5px',
+        paddingTop:'5px',
         top: offset ? `${offset}px` : '0px',
         backgroundColor: color
         }}>
-            <p>{data.name}</p>
-            <p>{formatYear(data.from)} - {formatYear(data.to)}</p>
+            <p style={{fontSize:'14px',lineHeight:'15px'}}>{data.name}</p>
+            <p style={{fontSize:'13px', marginTop: '-2px'}}>{data.from < 0 ? -1 * data.from : data.from} {data.from < 0 && data.to > 0 ? 'BC' : ''} - {data.to < 0 ? -1 * data.to : data.to} {data.to < 0 ? 'BC' : 'CE'}</p>
     </div>
   )
 }

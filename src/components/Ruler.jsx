@@ -12,18 +12,25 @@ export default function Ruler({ name, chance, from, to, color }) {
 
   return (
     <div
-      style={{ backgroundColor: color, boxSizing: 'border-box', paddingLeft: '5px', height: `${height}px`, position: 'relative' }}
+      style={{ 
+        backgroundColor: color, 
+        boxSizing: 'border-box', 
+        paddingLeft: '5px', 
+        paddingRight: '5px',
+        paddingTop: '5px',
+        height: `${height}px`, 
+        position: 'relative' }}
       onMouseEnter={() => setHovered(true)}
       onMouseLeave={() => setHovered(false)}
     >
       {height > 15 ? (
         <div style={{ display: 'flex', flexDirection: 'row', alignItems: 'start', justifyContent: 'space-between' }}>
-          <p style={{ fontSize: '12px' }}>{name}</p>
+          <p style={{ fontSize: '12px', lineHeight :'13px' }}>{name}</p>
           <p style={{ fontSize: '10px' }}>{chance !== '' ? `[${chance}]` : ''}</p>
         </div>
       ) : ''}
       {height > 35 && name !== '' ? (
-        <div style={{ fontSize: '10px', marginTop: '-2px' }}>
+        <div style={{ fontSize: '10px'}}>
           {from < 0 ? -1 * from : from} {from < 0 && to > 0 ? 'BC' : ''} - {to < 0 ? -1 * to : to} {to < 0 ? 'BC' : 'CE'}
         </div>
       ) : ''}

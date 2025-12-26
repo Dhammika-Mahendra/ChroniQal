@@ -32,3 +32,10 @@ export function extractHeaderProps(jsonArray) {
 export function getColorByIndex(index) {
   return index % 2 === 0 ? 'rgba(255, 255, 255, 0.8)' : 'rgba(255, 255, 0, 0.8)';
 }
+
+//generate random color out of given set
+export function getRandomColor() {
+  const colors = ['rgba(255, 255, 0, 0.8)','rgba(255, 255, 255, 0.8)'];
+  const randomIndex = Math.floor(Math.random() * colors.length);
+  return colors[randomIndex];
+}

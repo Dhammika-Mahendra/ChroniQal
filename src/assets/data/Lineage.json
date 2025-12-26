@@ -51,12 +51,6 @@
         "ch": "2nd"
     },
     {
-        "name": "Shang",
-        "from": 710,
-        "to": 710,
-        "ch": ""
-    },
-    {
         "name": "Ruizong",
         "from": 710,
         "to": 712,
@@ -1863,5 +1857,281 @@
         "ch": ""
     }
     ]
+},
+{
+    "id":13,
+    "name":"Khitan",
+    "description":"",
+    "type":"lineage",
+    "from":907,
+    "to":1125,
+    "data":[
+    {
+        "name": "Taizu",
+        "from": 907,
+        "to": 926,
+        "ch": ""
+    },
+    {
+        "name": "Taizong",
+        "from": 926,
+        "to": 947,
+        "ch": ""
+    },
+    {
+        "name": "Shizong",
+        "from": 947,
+        "to": 951,
+        "ch": ""
+    },
+    {
+        "name": "Muzong",
+        "from": 951,
+        "to": 969,
+        "ch": ""
+    },
+    {
+        "name": "Jingzong",
+        "from": 969,
+        "to": 982,
+        "ch": ""
+    },
+    {
+        "name": "Shengzong",
+        "from": 982,
+        "to": 1031,
+        "ch": ""
+    },
+    {
+        "name": "Xingzong",
+        "from": 1031,
+        "to": 1055,
+        "ch": ""
+    },
+    {
+        "name": "Daozong",
+        "from": 1055,
+        "to": 1101,
+        "ch": ""
+    },
+    {
+        "name": "Tianzuo",
+        "from": 1101,
+        "to": 1125,
+        "ch": ""
+    }
+]
+},
+{
+    "id":14,
+    "name":"Song",
+    "description":"",
+    "type":"lineage",
+    "from":960,
+    "to":1279,
+    "data":[
+    {
+        "name": "Taizu",
+        "from": 960,
+        "to": 976,
+        "ch": ""
+    },
+    {
+        "name": "Taizong",
+        "from": 976,
+        "to": 997,
+        "ch": ""
+    },
+    {
+        "name": "Zhenzong",
+        "from": 997,
+        "to": 1022,
+        "ch": ""
+    },
+    {
+        "name": "Renzong",
+        "from": 1022,
+        "to": 1063,
+        "ch": ""
+    },
+    {
+        "name": "Yingzong",
+        "from": 1063,
+        "to": 1067,
+        "ch": ""
+    },
+    {
+        "name": "Shenzong",
+        "from": 1067,
+        "to": 1085,
+        "ch": ""
+    },
+    {
+        "name": "Zhezong",
+        "from": 1085,
+        "to": 1100,
+        "ch": ""
+    },
+    {
+        "name": "Huizong",
+        "from": 1100,
+        "to": 1125,
+        "ch": ""
+    },
+    {
+        "name": "Qinzong",
+        "from": 1125,
+        "to": 1127,
+        "ch": ""
+    },
+    {
+        "name": "Gaozong",
+        "from": 1127,
+        "to": 1162,
+        "ch": ""
+    },
+    {
+        "name": "Xiaozong",
+        "from": 1162,
+        "to": 1189,
+        "ch": ""
+    },
+    {
+        "name": "Guangzong",
+        "from": 1189,
+        "to": 1194,
+        "ch": ""
+    },
+    {
+        "name": "Ningzong",
+        "from": 1194,
+        "to": 1224,
+        "ch": ""
+    },
+    {
+        "name": "Lizong",
+        "from": 1224,
+        "to": 1264,
+        "ch": ""
+    },
+    {
+        "name": "Duzong",
+        "from": 1264,
+        "to": 1274,
+        "ch": ""
+    },
+    {
+        "name": "Gongdi",
+        "from": 1274,
+        "to": 1276,
+        "ch": ""
+    },
+    {
+        "name": "Duanzong",
+        "from": 1276,
+        "to": 1278,
+        "ch": ""
+    },
+    {
+        "name": "Huaizong",
+        "from": 1278,
+        "to": 1279,
+        "ch": ""
+    }
+]
+},
+{
+    "id":15,
+    "name":"Balhae",
+    "description":"",
+    "type":"lineage",
+    "from":698,
+    "to":926,
+    "data":[
+    {
+        "name": "Dae Jo-yeong (Go)",
+        "from": 698,
+        "to": 719,
+        "ch": ""
+    },
+    {
+        "name": "Dae Mu-ye (Mu)",
+        "from": 719,
+        "to": 737,
+        "ch": ""
+    },
+    {
+        "name": "Dae Heum-mu (Mun)",
+        "from": 737,
+        "to": 793,
+        "ch": ""
+    },
+    {
+        "name": "Dae Hwa-yeo (Seong)",
+        "from": 793,
+        "to": 794,
+        "ch": ""
+    },
+    {
+        "name": "Dae Sung-rin (Gang)",
+        "from": 794,
+        "to": 809,
+        "ch": ""
+    },
+    {
+        "name": "Dae Won-yu (Jeong)",
+        "from": 809,
+        "to": 812,
+        "ch": ""
+    },
+    {
+        "name": "Dae Eon-ui (Hui)",
+        "from": 812,
+        "to": 817,
+        "ch": ""
+    },
+    {
+        "name": "Dae Myeong-chung (Gan)",
+        "from": 817,
+        "to": 818,
+        "ch": ""
+    },
+    {
+        "name": "Dae In-su (Seon)",
+        "from": 818,
+        "to": 830,
+        "ch": ""
+    },
+    {
+        "name": "Dae Ijin",
+        "from": 830,
+        "to": 857,
+        "ch": ""
+    },
+    {
+        "name": "Dae Geonhwang",
+        "from": 857,
+        "to": 871,
+        "ch": ""
+    },
+    {
+        "name": "Dae Hyeonseok",
+        "from": 871,
+        "to": 895,
+        "ch": ""
+    },
+    {
+        "name": "Dae Wihae",
+        "from": 895,
+        "to": 906,
+        "ch": ""
+    },
+    {
+        "name": "Dae Inseon",
+        "from": 906,
+        "to": 926,
+        "ch": ""
+    }
+]
 }
 ]
