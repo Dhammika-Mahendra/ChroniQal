@@ -26,8 +26,18 @@ export default function Board() {
             <Nav />
 
             <div 
-            style={{height: '100%',width: '100%',display: 'flex', flexDirection: 'row', alignItems: 'flex-start', overflowY: 'scroll',backgroundColor: '#f0f0f0'}}
+                style={{
+                    height: '100%',
+                    width: '100%',
+                    display: 'flex', 
+                    flexDirection: 'row', 
+                    alignItems: 'flex-start', 
+                    overflowY: 'scroll',
+                    backgroundColor: '#f0f0f0',
+                    paddingBottom: '20px'
+                }}
             >
+
                 <Timeline from={offSets.start} to={offSets.end} scale={scale} />
 
                 <div style={{
@@ -35,7 +45,7 @@ export default function Board() {
                     width: '100%',
                     flexDirection: 'row', 
                     display: 'flex',
-                    justifyContent: 'center',
+                    justifyContent: 'center'
                     }}>
                     {
                         addedFiles.map((data, index) => (
