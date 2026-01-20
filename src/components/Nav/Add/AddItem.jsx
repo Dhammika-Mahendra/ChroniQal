@@ -9,11 +9,10 @@ return (
             alignItems: 'center',
             justifyContent: 'space-between',
             padding: '5px 0',
-            borderBottom: '1px solid #eee',
-            lineHeight: '1.2',
+            borderBottom: '1px solid #eee'
         }}
     >
-        <p style={{ fontSize: '12px' }}>{name}</p>
+        <p style={{ fontSize: '12px', lineHeight: '1.2',maxWidth:'130px'}}>{name}</p>
         <svg
             className="w-4 h-4 text-gray-800 dark:text-white"
             aria-hidden="true"

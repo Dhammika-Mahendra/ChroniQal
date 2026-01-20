@@ -1,0 +1,26 @@
+[
+    {
+        "id": 201,
+        "name": "Goguryeo–Tang War",
+        "description": "",
+        "type": "",
+        "from": 645,
+        "to": 668
+    },
+    {
+        "id": 202,
+        "name": "Campaign against Xueyantuo",
+        "description": "Emperor Taizong's campaign against Xueyantuo",
+        "type": "",
+        "from": 641,
+        "to": 646
+    },
+    {
+        "id": 203,
+        "name": "Silla–Tang War",
+        "description": "",
+        "type": "",
+        "from": 670,
+        "to": 676
+    }
+]
