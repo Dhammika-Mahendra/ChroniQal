@@ -31,8 +31,8 @@ export default function Add() {
       <div style={{marginTop:'5px', marginBottom:'2px'}}>
         <select
           id="region-select"
-          className="block w-full px-3 py-1 border border-gray-300 rounded-sm transition-colors"
-          style={{ fontSize: '12px' }}
+          className="block w-full px-3 py-1 border border-gray-300 transition-colors"
+          style={{ fontSize: '12px', borderRadius: '4px' }}
           value={type}
           onChange={e => setType(e.target.value)}
         >
@@ -42,22 +42,28 @@ export default function Add() {
         </select>
       </div>
 
-      <ul 
-        style={{ 
-          width: '160px', 
-          height: '200px', 
-          overflowY: 'auto', 
-          paddingLeft :'5px', 
-          paddingRight: '5px', 
-          border: '1px solid #ccc',
-          scrollbarWidth: 'thin' // For Firefox
-        }}
-        className="custom-scrollbar"
+      <div className='flex flex-col justify-center items-center'
+        style={{ border: '1px solid #ccc',borderRadius: '4px'}}
       >
-        {filteredList.map(item => (
-          <AddItem key={item.id} id={item.id} name={item.name} addFile={addFile} />
-        ))}
-      </ul>
+        <ul 
+          style={{ 
+            width: '160px', 
+            height: '220px', 
+            overflowY: 'auto', 
+            paddingLeft :'5px', 
+            paddingRight: '5px', 
+            scrollbarWidth: 'thin' // For Firefox
+          }}
+          className="custom-scrollbar"
+        >
+          {filteredList.map(item => (
+            <AddItem key={item.id} id={item.id} name={item.name} addFile={addFile} />
+          ))}
+        </ul>
+        <div className='h-[30px] mt-1 w-[95%] border-t border-gray-300 flex justify-center items-center'>
+
+        </div>
+      </div>
       <style>
         {`
           .custom-scrollbar::-webkit-scrollbar {
