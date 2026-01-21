@@ -1,10 +1,11 @@
 import React, { useEffect } from 'react'
-import Lineage from './lineage'
+import Lineage from './Lineage'
 import { useAppContext } from '../context/AppContext'
 import Nav from './Nav/Nav'
 import { calcOffsets } from '../util/functions'    
 import Timeline from './Timeline'
 import Domain from './Domain'
+import EventLine from './EventLine'
 
 export default function Board() {
     const {scale, offSets, setOffsets, addedFiles} = useAppContext()
@@ -53,8 +54,9 @@ export default function Board() {
                                 key={data.id} 
                                 data={data.data} 
                                 offset={offSets.offset[index]*scale || 0} 
-                            /> : 
+                            /> : data.type === "domain" ?
                             <Domain key={data.id} data={data} offset={offSets.offset[index]*scale || 0} />
+                            : <EventLine key={data.id} data={data.data} offset={offSets.offset[index]*scale || 0} />
                         ))
                     }
                 </div>

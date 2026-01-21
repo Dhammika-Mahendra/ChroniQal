@@ -42,11 +42,33 @@ export default function Add() {
         </select>
       </div>
 
-      <ul style={{ width: '160px', height: '200px', overflowY: 'auto', paddingLeft :'5px', paddingRight: '5px', border: '1px solid #ccc'}}>
+      <ul 
+        style={{ 
+          width: '160px', 
+          height: '200px', 
+          overflowY: 'auto', 
+          paddingLeft :'5px', 
+          paddingRight: '5px', 
+          border: '1px solid #ccc',
+          scrollbarWidth: 'thin' // For Firefox
+        }}
+        className="custom-scrollbar"
+      >
         {filteredList.map(item => (
           <AddItem key={item.id} id={item.id} name={item.name} addFile={addFile} />
         ))}
       </ul>
+      <style>
+        {`
+          .custom-scrollbar::-webkit-scrollbar {
+            width: 6px;
+          }
+          .custom-scrollbar::-webkit-scrollbar-thumb {
+            background: #ccc;
+            border-radius: 3px;
+          }
+        `}
+      </style>
     </div>
   )
 }
