@@ -7,10 +7,11 @@ export default function Advanced() {
 
   const [eventLineName, setEventLineName] = React.useState("");
   const [nameSet, setNameSet] = React.useState(false);
+  const [addedEvents, setAddedEvents] = React.useState([]);
 
   return (
     <div style={{position:'relative'}}>
-        <div style={{position:'relative',top:'-20px'}} className='flex flex-col justify-center'>
+        <div style={{position:'relative'}} className='flex flex-col justify-center'>
         <div className='flex justify-start items-center'>
             <input 
                 type="text" 
@@ -35,8 +36,9 @@ export default function Advanced() {
                 />
                 <div className='custom-scrollbar h-[180px] w-[100%] border rounded border-gray-300 overflow-y-scroll'>
                     {events.map((eventItem) => (
-                    <div key={eventItem.id} className='p-1 border-b border-gray-200 w-[100%]'>
-                        <span>{eventItem.name}</span>
+                    <div key={eventItem.id} className='p-1 border-b border-gray-200 w-[100%] cursor-pointer hover:bg-gray-50'>
+                        <p style={{fontSize:'12px'}}>{eventItem.name}</p>
+                        <p style={{fontSize:'10px'}}>{eventItem.description}</p>
                     </div>
                 ))}
                 </div>

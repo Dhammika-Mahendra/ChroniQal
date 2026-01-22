@@ -11,6 +11,7 @@ return (
             padding: '5px 0',
             borderBottom: '1px solid #eee'
         }}
+        className='cursor-pointer hover:bg-gray-50'
     >
         <p style={{ fontSize: '12px', lineHeight: '1.2',maxWidth:'130px'}}>{name}</p>
         <svg
