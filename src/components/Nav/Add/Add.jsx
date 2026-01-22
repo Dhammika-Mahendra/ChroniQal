@@ -1,6 +1,7 @@
 import React, { useState } from 'react'
 import { useAppContext } from '../../../context/AppContext'
 import AddItem from './AddItem';
+import Advanced from './Advanced';
 
 export default function Add() {
   const { lineageData, domainData, eventsData, addedFiles, setAddedFiles } = useAppContext()
@@ -84,18 +85,15 @@ export default function Add() {
 
       {/* Advanced options box */}
       <dialog id="my_modal_1" className="modal">
-        <div className="modal-box">
-          <form method="dialog">
+        <div className="modal-box" style={{padding:'10px'}}>
+          <form method="dialog" className='flex justify-end'>
             <button className="bg-transparent border-0 p-0 m-0 cursor-pointer">
-              <svg class="w-5 h-5 text-red-500 dark:text-white" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24">
+              <svg class="w-5 h-5 text-gray-500 dark:text-white" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24">
                 <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="m15 9-6 6m0-6 6 6m6-3a9 9 0 1 1-18 0 9 9 0 0 1 18 0Z"/>
               </svg>
             </button>
           </form>
-          <h3 className="font-bold text-lg">Hello!</h3>
-          <p className="py-4">Press ESC key or click the button below to close</p>
-          <div className="modal-action">
-          </div>
+          <Advanced />
         </div>
       </dialog>
     </div>
