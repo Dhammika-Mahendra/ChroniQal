@@ -1,17 +1,29 @@
 import React from 'react'
+import { useAppContext } from '../../../context/AppContext';
 
 export default function Advanced() {
+   
+  const { events } = useAppContext();
+
+  const [eventLineName, setEventLineName] = React.useState("");
+  const [nameSet, setNameSet] = React.useState(false);
+
   return (
     <div style={{position:'relative'}}>
         <div style={{position:'relative',top:'-20px'}} className='flex flex-col justify-center'>
         <div className='flex justify-start items-center'>
             <input 
                 type="text" 
+                disabled={nameSet}
                 placeholder="Eventline name" 
                 className="input input-sm w-[180px]"
+                value={eventLineName}
+                onChange={e => {setEventLineName(e.target.value);}}
             />
             <div className="bg-white p-2">
-                <button className="btn btn-neutral btn-xs">Create</button>
+                <button className={`btn ${nameSet ? "btn-outline" : "btn-neutral"} btn-xs`}
+                    onClick={() => setNameSet(!nameSet)}
+                >{nameSet ? "Edit" : "Create"}</button>
             </div>
         </div>
         <div className='w-full flex flex-col justify-between items-center border-t border-gray-300 pt-4'>
@@ -21,13 +33,33 @@ export default function Advanced() {
                 placeholder="Search Events" 
                 className="input input-sm w-[100%] mb-1"
                 />
-                <div className='h-[180px] w-[100%] border rounded border-gray-300'></div>
+                <div className='custom-scrollbar h-[180px] w-[100%] border rounded border-gray-300 overflow-y-scroll'>
+                    {events.map((eventItem) => (
+                    <div key={eventItem.id} className='p-1 border-b border-gray-200 w-[100%]'>
+                        <span>{eventItem.name}</span>
+                    </div>
+                ))}
+                </div>
             </div>
-            <div className='h-[100px] w-[100%] border rounded border-gray-300 mt-1 flex flex-col justify-start items-start'>
+            <div className='h-[100px] w-[100%] border rounded border-gray-300 mt-1 flex flex-col 
+            justify-start items-start mb-[10px]'>
             </div>
         </div>
-        <button className="btn btn-neutral btn-xs w-[60px] mt-2" style={{position:'absolute',bottom:'5px'}}>Add</button>
+        <button className="btn btn-neutral btn-xs w-[60px] mt-2" style={{position:'absolute',bottom:'-20px',right:'5px'}}>Add</button>
         </div>
+        <style>
+            {`
+                .custom-scrollbar {
+                scrollbar-width: thin;
+                scrollbar-color: #ccc transparent;
+                }
+                .custom-scrollbar::-webkit-scrollbar { width: 6px; }
+                .custom-scrollbar::-webkit-scrollbar-thumb {
+                background: #ccc;
+                border-radius: 3px;
+                }
+            `}
+        </style>
     </div>
   )
 }
