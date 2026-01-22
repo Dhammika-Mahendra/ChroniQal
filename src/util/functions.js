@@ -39,3 +39,25 @@ export function getRandomColor() {
   const randomIndex = Math.floor(Math.random() * colors.length);
   return colors[randomIndex];
 }
+
+
+//JSON data handling functions
+export function createEventLine(eventsList, name, description) {
+  //find min from checking every eventsList elements from property 'from'
+  const fromValues = eventsList.map(event => event.from).filter(v => typeof v === 'number');
+  const min = fromValues.length > 0 ? Math.min(...fromValues) : 0;
+
+  //find max from checking every eventsList elements from property 'to'
+  const toValues = eventsList.map(event => event.to).filter(v => typeof v === 'number');
+  const max = toValues.length > 0 ? Math.max(...toValues) : 0;
+  
+  return {
+    "id": Math.random().toString(36).substring(2, 9),
+    "name": name,
+    "description": description,
+    "type":"event",
+    "from":min,
+    "to":max,
+    "data": eventsList
+  };
+}
