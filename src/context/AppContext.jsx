@@ -3,6 +3,7 @@ import domain from '../assets/data/Domain.json'
 import lineage from '../assets/data/Lineage.json'
 import eventLine from '../assets/data/EventLine.json'
 import event from '../assets/data/Event.json'
+import { useEffect } from 'react'
 
 // Create the context
 const AppContext = createContext()
@@ -24,7 +25,12 @@ export const AppProvider = ({ children }) => {
   const [eventLineData, setEventLineData] = React.useState([...eventLine])
   const [eventData, setEventData] = React.useState([...event])
   const [addedFiles, setAddedFiles] = React.useState([])
-  const [offSets,setOffsets] = React.useState([]) 
+  const [offSets,setOffsets] = React.useState([])
+
+  // Store Events data in local storage when context is initialized
+  useEffect(() => {
+    localStorage.setItem('eventLineDataStr', JSON.stringify(eventLineData))
+  }, [eventData]) 
 
   const value = {
     scale,

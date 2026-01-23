@@ -4,7 +4,7 @@ import { createEventLine } from '../../../util/functions';
 
 export default function Advanced() {
    
-  const { eventData } = useAppContext();
+  const { eventData, setEventLineData } = useAppContext();
 
   const [eventLineName, setEventLineName] = React.useState("");
   const [eventDescription, setEventDescription] = React.useState("text here");
@@ -25,9 +25,12 @@ export default function Advanced() {
 
   const addEventLine = () => {
     const eventLineObj = createEventLine(addedEvents, eventLineName, eventDescription);
-    console.log(eventLineObj);
-    //writing this data into Event.json file (add as th last element)
-    
+    //writing this data into 'eventsDataStr' local storage file (add as th last element)
+    const eventsDataStr = localStorage.getItem('eventLineDataStr');
+    const eventsData = eventsDataStr ? JSON.parse(eventsDataStr) : [];
+    eventsData.push(eventLineObj);
+    localStorage.setItem('eventLineDataStr', JSON.stringify(eventsData));
+    setEventLineData(eventsData);
   }
 
   return (
