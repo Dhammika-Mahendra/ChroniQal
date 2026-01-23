@@ -4,16 +4,16 @@ import AddItem from './AddItem';
 import Advanced from './Advanced';
 
 export default function Add() {
-  const { lineageData, domainData, eventsData, addedFiles, setAddedFiles } = useAppContext()
+  const { lineageData, domainData, eventLineData, addedFiles, setAddedFiles } = useAppContext()
   const [type, setType] = useState("lineage"); // lineage: Dynasty, domain: Kingdom, event: Event
   const [search, setSearch] = useState("");
-  const filteredList = (type === "lineage" ? lineageData : type === "domain" ? domainData : eventsData).filter(item => 
+  const filteredList = (type === "lineage" ? lineageData : type === "domain" ? domainData : eventLineData).filter(item => 
     item.name.toLowerCase().includes(search.toLowerCase())
   );
 
   const addFile = (id) => {
    //add from lineageData/domainData/eventData to addedFiles based on id (check if already added)
-   const fileToAdd = (type === "lineage" ? lineageData : type === "domain" ? domainData : eventsData).find(item => item.id === id);
+   const fileToAdd = (type === "lineage" ? lineageData : type === "domain" ? domainData : eventLineData).find(item => item.id === id);
    if (fileToAdd && !addedFiles.some(file => file.id === id)) {
      setAddedFiles([...addedFiles, fileToAdd]);
    }

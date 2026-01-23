@@ -1,8 +1,8 @@
 import React, { createContext, useContext, useState } from 'react'
 import domain from '../assets/data/Domain.json'
 import lineage from '../assets/data/Lineage.json'
+import eventLine from '../assets/data/EventLine.json'
 import event from '../assets/data/Event.json'
-import Events from '../assets/data/Events.json'
 
 // Create the context
 const AppContext = createContext()
@@ -21,8 +21,8 @@ export const AppProvider = ({ children }) => {
   const [scale, setScale] = useState(8)
   const [lineageData, setLineageData] = React.useState([...lineage])
   const [domainData, setDomainData] = React.useState([...domain])
-  const [eventsData, setEventsData] = React.useState([...event])
-  const [events, setEvents] = React.useState([...Events])
+  const [eventLineData, setEventLineData] = React.useState([...eventLine])
+  const [eventData, setEventData] = React.useState([...event])
   const [addedFiles, setAddedFiles] = React.useState([])
   const [offSets,setOffsets] = React.useState([]) 
 
@@ -37,10 +37,10 @@ export const AppProvider = ({ children }) => {
     setAddedFiles,
     domainData,
     setDomainData,
-    eventsData,
-    setEventsData,
-    events,
-    setEvents
+    eventLineData,
+    setEventLineData,
+    eventData,
+    setEventData
   }
 
   return (
